@@ -1,0 +1,145 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.categories h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+.category-item {
+    width: 19.5%;  
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.category-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.discount-form{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0B710B;
+    width: 1380px;
+    height: 486px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 10px;
+    padding: 32px 32px 0 32px;
+}
+
+.discount-form img{
+    position: absolute;
+  bottom: 0;
+}
+
+.discount-heading {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size:4em;
+    margin-top: auto;
+  }
+
+.discount-image{
+    width: 748px;
+    height: 360px;
+}
+
+.registration-form form {
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left:800px;
+    max-width: 516px;
+    max-height: 600px;
+    margin-bottom: -30px;
+    bottom: 15%;
+}
+  
+.registration-form form label {
+    background-color:rgb(255, 255, 255);
+}
+  
+.registration-form form input[type="text"],
+.registration-form form input[type="tel"],
+.registration-form form input[type="email"] {
+ background-color: transparent;
+ position: relative;
+ width: 516px;
+ height: 58px;
+ border-radius: 6px;
+ border: 1px solid white;
+ margin: 10px 0;
+
+}
+
+.registration-form form input[type="text"]::placeholder,
+.registration-form form input[type="tel"]::placeholder,
+.registration-form form input[type="email"]::placeholder {
+  color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+}
+.submit-btn {
+    color: rgb(2, 1, 1);
+    background-color:rgb(255, 255, 255);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    width: 516px;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(1, 1, 1);
+    color: rgba(255, 253, 253, 0.673);
+  }
+
+  .sale-card {
+    box-sizing: border-box;
+    width: 306px;  
+    height: 512px; 
+    margin: 30px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid grey; 
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
+  .sale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+  

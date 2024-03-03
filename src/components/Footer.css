@@ -1,0 +1,37 @@
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px 80px 40px;
+
+  }
+
+  .cards h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #8B8B8B;
+    font-size: 20px;
+  }
+  
+  .cards {
+    background-color: #F1F3F4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    flex-basis: 40%;
+    border: 1px solid #F1F3F4; 
+    border-radius: 6px;
+    margin-bottom: 10px; 
+    padding: 32px; 
+    gap: 16px;
+  }
+  .cards:nth-child(odd) {
+    flex-basis: 50%;
+  }
+  
+  .map{
+    flex-basis: 100%;
+  }
+
+  .map img{
+    width: 100%;
+  }

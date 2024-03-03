@@ -1,0 +1,80 @@
+.product-container {
+    display: flex;
+    width: Hug (1,360px);
+    height: Hug (574px);
+    top: 316px;
+    left: 40px;
+    gap: 32px
+    
+}
+
+.product-image {
+    margin: 30px;
+    width: 572px;
+    height: 574px;
+}
+
+.product-container h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+
+.price-container {
+    display: flex;
+    justify-content: space-between; /* Чтобы распределить цены равномерно по контейнеру */
+    align-items: center;
+    width: Hug (359px);
+    height: Hug (70px);
+    gap: 16px
+
+}
+
+.product-price {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: line-through;
+    
+
+}
+
+.discount-price {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8B8B;
+
+    }
+
+.add-to-cart-button {
+  background-color: green;
+  color: white;
+  width: Fixed (316px);
+  height: Hug (58px);
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 6px;
+  gap: 10px
+
+}
+
+.font-description {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}

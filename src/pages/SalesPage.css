@@ -1,0 +1,84 @@
+.sales-container {
+
+    width: Hug (1,360px);
+    height: Hug (1,062px);
+    top: 244px;
+    left: 40px;
+    gap: 40px
+
+  }
+
+  
+  .sale-card {
+    position: relative;
+    width: Hug (316px);
+    height: Hug (422px);
+    border-radius: 12px;
+    border: 1px solid gray;
+    gap: 20px
+    
+  }
+  
+  .price-container {
+    width: 252px;
+    height: 44px;
+    display: flex;         
+    align-items: flex-end; 
+}
+
+.discont_price{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px;
+  
+}
+.price{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8B8B8B;
+  margin: 10px;
+
+
+}
+
+.price.discount {
+  text-decoration: line-through;
+}
+
+  
+  .sales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+  
+
+  .cart-button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: #339933;
+    border: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 176px; 
+    left: 0;
+    opacity: 0; 
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2; 
+  }
+  
+  .sale-card:hover .cart-button {
+    opacity: 1;
+  }

@@ -1,0 +1,119 @@
+.products-page{
+  width: Hug (1,360px);
+  height: Hug (1,516px);
+  top: 244px;
+  left: 40px;
+  gap: 40px
+  
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;   
+}
+
+.products-container {
+  width: Fixed (1,360px);
+  height: Hug (1,330px);
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 152px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 316px;
+  height: 462px;
+  margin: 0px 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.product-card img {
+  position: relative; 
+  z-index: 1;
+  width: 100%;
+  height: 284px;
+  object-fit: cover;
+  border: 1px;
+  border-radius: 10px;
+}
+
+h3 a {
+  color: black;
+  text-decoration: none;
+}
+
+
+h3 a:hover {
+  color: darkgray;
+}
+
+.cart-button {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  background-color: #339933;
+  border: none;
+  color: white;
+  text-align: center;
+  position: absolute; 
+  bottom: 176px; 
+  left: 0;
+  opacity: 0; 
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out; 
+  z-index: 2; 
+}
+
+.product-card:hover .cart-button {
+  opacity: 1; 
+}
+
+.product-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0px;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+.page-button:disabled {
+  background-color: #cccccc;
+}
+
+.price-filter-label {
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price-filter-input {
+
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
